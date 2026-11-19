@@ -1,10 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Yousf Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMÉ — Objects made for slow living</title>
+  <meta name="description" content="LUMÉ is a small, considered collection of audio, homeware and everyday things. Chosen for how they feel, built to be kept.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%2317130f'/%3E%3Ctext x='32' y='45' font-family='Georgia,serif' font-size='36' fill='%23faf7f2' text-anchor='middle'%3EL%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add('js');</script>
 </head>
-<body>
-    <h1>Welcome to My Website!</h1>
-    <p>My website is powered by GitHub Pages.</p>
+<body data-page="home">
+  <a class="skip" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+
+  <main id="main">
+    <section class="container hero">
+      <div class="hero-copy">
+        <span class="eyebrow" data-reveal><span class="dot"></span>New season · Autumn 2026</span>
+        <h1 data-reveal>Objects made for <em>slow</em> living.</h1>
+        <p class="lede" data-reveal>A tightly edited collection of everyday things — audio, homeware and wearables chosen for how they feel, not just how they look. Less, but better.</p>
+        <div class="hero-actions" data-reveal>
+          <a class="btn btn-primary" href="shop.html">Shop the collection
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="account.html#listings">Sell a product</a>
+        </div>
+        <div class="hero-proof" data-reveal>
+          <div class="avatars" aria-hidden="true">
+            <span style="background:linear-gradient(135deg,#d98b6a,#a94423)">AR</span>
+            <span style="background:linear-gradient(135deg,#8f9b7d,#5c6a4c)">MK</span>
+            <span style="background:linear-gradient(135deg,#c2a778,#8a6c40)">JL</span>
+            <span style="background:linear-gradient(135deg,#8d7c8f,#5b4a5d)">SN</span>
+          </div>
+          <div class="proof-text">
+            <span class="stars" style="--rating:4.9" aria-hidden="true">★★★★★</span><br>
+            <strong>12,400+</strong> considered shoppers · 4.9 / 5
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual" data-reveal>
+        <div class="hero-blob" aria-hidden="true"></div>
+        <div class="hero-frame">
+          <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80" alt="A calm living room with a lounge chair, warm light and natural textures" fetchpriority="high" onerror="this.style.opacity=0">
+        </div>
+        <a class="float-card" href="shop.html" aria-label="Shop the collection">
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=200&q=80" alt="" onerror="this.style.opacity=0">
+          <span class="float-meta">
+            <small>Community</small>
+            <strong>Member listings</strong>
+            <span class="price">Shop &amp; sell</span>
+          </span>
+        </a>
+        <div class="float-chip" aria-hidden="true">
+          <span class="stars" style="--rating:5">★★★★★</span> Loved by 12k
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-item">Considered design <span class="sep">✦</span> Carbon-neutral delivery <span class="sep">✦</span> 30-day easy returns <span class="sep">✦</span> Made to last <span class="sep">✦</span> Small-batch makers <span class="sep">✦</span></div>
+        <div class="marquee-item">Considered design <span class="sep">✦</span> Carbon-neutral delivery <span class="sep">✦</span> 30-day easy returns <span class="sep">✦</span> Made to last <span class="sep">✦</span> Small-batch makers <span class="sep">✦</span></div>
+      </div>
+    </div>
+
+    <section class="container section" id="categories">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">Browse</span>
+          <h2>Everything, in its place.</h2>
+          <p class="section-sub">Discover what members are sharing, or add a product of your own.</p>
+        </div>
+        <a class="link-arrow" href="shop.html">All products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="shop.html" data-reveal>
+          <img src="https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1100&q=80" alt="Member-listed products" loading="lazy" onerror="this.style.opacity=0">
+          <div class="category-content">
+            <div><h3>All listings</h3><small>Browse pieces</small></div>
+            <span class="cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></div>
+        </a>
+        <a class="category-card" href="account.html#listings" data-reveal>
+          <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=700&q=80" alt="Sell your product" loading="lazy" onerror="this.style.opacity=0">
+          <div class="category-content">
+            <div><h3>Sell a product</h3><small>Add your own</small></div>
+            <span class="cat-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></div>
+        </a>
+      </div>
+    </section>
+
+    <section class="container section" id="featured">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The edit</span>
+          <h2>Most loved, this month.</h2>
+          <p class="section-sub">The pieces our community keeps coming back to — and quietly telling their friends about.</p>
+        </div>
+        <a class="link-arrow" href="shop.html">View all products
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="product-grid" id="featuredGrid"></div>
+    </section>
+
+    <section class="editorial" id="editorial">
+      <div class="container editorial-inner">
+        <div class="editorial-media" data-reveal>
+          <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80" alt="A softly lit interior with warm textures and simple furniture" loading="lazy" onerror="this.style.opacity=0">
+        </div>
+        <div class="editorial-copy" data-reveal>
+          <span class="eyebrow"><span class="dot"></span>The LUMÉ standard</span>
+          <h2>Buy once.<br><em>Keep for years.</em></h2>
+          <p>We work with small makers and family-run workshops, then keep only what earns its place. No seasonal churn, no filler — just objects with a reason to exist.</p>
+          <ul class="editorial-list">
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span> Responsibly sourced materials</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span> Repairs and spare parts, always</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span> Plastic-free packaging</li>
+            <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span> 30 days to change your mind</li>
+          </ul>
+          <a class="btn btn-light" href="shop.html">Explore the collection
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15"/><path d="m13 6 6 6-6 6"/></svg>
+          </a>
+          <div class="stats">
+            <div class="stat"><strong>14k</strong><span>Customers</span></div>
+            <div class="stat"><strong>4.9</strong><span>Average rating</span></div>
+            <div class="stat"><strong>32</strong><span>Countries</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container" id="perks">
+      <div class="perks">
+        <div class="perk" data-reveal>
+          <div class="perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6.5h11v10H3z"/><path d="M14 10h4l3 3v3.5h-7"/><circle cx="7" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/></svg></div>
+          <h3>Free shipping over $150</h3>
+          <p>Carbon-neutral delivery to your door, tracked from studio to doorstep.</p>
+        </div>
+        <div class="perk" data-reveal>
+          <div class="perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2 6"/><path d="M20 4v7h-7"/></svg></div>
+          <h3>30-day easy returns</h3>
+          <p>Not quite right? Send it back within 30 days, no questions asked.</p>
+        </div>
+        <div class="perk" data-reveal>
+          <div class="perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M12 3.5 5 6v5.5c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6l-7-2.5Z"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <h3>Two-year guarantee</h3>
+          <p>Every piece is covered, and we keep spare parts for years to come.</p>
+        </div>
+        <div class="perk" data-reveal>
+          <div class="perk-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c8 1 13-4 14-14-10-1-15 4-14 14Z"/><path d="M5 19c1-5 3.5-8 8-10"/></svg></div>
+          <h3>Made responsibly</h3>
+          <p>Small-batch production, recycled materials and plastic-free packaging.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="container newsletter">
+      <div class="newsletter-card" data-reveal>
+        <div>
+          <span class="eyebrow"><span class="dot"></span>The letter</span>
+          <h2>Slow drops, straight<br>to your inbox.</h2>
+          <p>New arrivals, studio notes and the occasional early access. Two emails a month, never more.</p>
+          <p class="newsletter-note">By subscribing you agree to our privacy policy. Unsubscribe anytime.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm" novalidate>
+          <input type="email" name="email" placeholder="you@example.com" aria-label="Email address" required>
+          <button class="btn btn-primary" type="submit">Join the list</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/home.js"></script>
 </body>
 </html>
